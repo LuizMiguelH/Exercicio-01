@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <!--elemento em bloco-->
+    <main>
+
+        <!--elemento em bloco-->
+        <h1>Título h1 só pode ser usado uma unica vez dentro de qualquer aplicação</h1>
+        <h2>Titulo h2</h2>
+        <h3>Titulo h3</h3>
+        <h4>Titulo h4</h4>
+        <h5>Titulo h4</h5>
+        <h6>Titulo h4</h6>
+        <p>Parágrafo</p>
+
+        <!--elemento inline-->
+        <a href="https://www.pr.senac.br">link</a>
+        <a href="https://www.google.com">Google</a>
+
+        <!--elemento em bloco-->
+
+        <li>lista simples</li>
+
+        <ul><!--lista nn ordenada-->
+        <li>carro</li>
+        <li>cores</li>
+        <li>frutas</li>
+        <li>países</li>
+        </ul>
+
+        <ol><!--lista ordenada-->
+            <li>celta</li>
+            <li>brasilia</li>
+            <li>gol quadrado</li>
+            <li>fusca</li>
+        </ol>
+        
+        <dl><!--lista de definição-->
+            <dt>caracteristicas do produto</dt>
+                <dd>mais opções de cores e tamanhos</dd>
+                <dd>aumento da vida util</dd>
+            <dt>acrecimo de itens de segurança</dt>
+                <dd>manuseio seguro por crianças acima de 3 anos</dd>
+            <dt>custos</dt>
+            <dd>aumento dos prazos de pagamento</dd>
+            <dd>possibilidade de inscrição em programa de leasing</dd>
+        </dl>
+        
+        <!--Elemento em bloco-->
+        <div>
+            <!--divisão de caixas-->
+            <h3>Descrição do Produto</h3>
+            <p>Este produto pode ser fornecido em duas versões</p>
+        </div>
+
+        
+        <!--Elemento inLine-->
+        <p>Texto de um paragrafo com <span>palavra</span> marcada com o elemento SPAN</p>
+        <p>texto de um paragrafo com <b>palavra em negrito</b> marcada com o elemento B</p>
+        <p>Texto de um paragrafo com <strong>palavra com forte ênfase</strong> marcada com o elemento STRONG</p>
+        <p>Texto de um paragrafo com <i>palavra em italico</i> marcada com o elemento I</p>
+        <p>Texto de um paragrafo com <em>palavra em ênfase</em> marcada com elemento EM</p>
+
+        <!--Elemento em bloco-->
+        <h3>Valores das Diarias</h3>
+        <dl>
+            <dt>Quarto de Solteiro</dt>
+            <!--Elemento inline-->
+            <dd>R$320,00 <small>café da manhã incluso</small></dd>
+            <dt>Quarto de casal</dt>
+            <dd>R$490,00<small>café da manhã incluso</small></dd>
+        </dl>
+
+        <!--Elemento inLine-->
+        <p>Os elemento <code>div</code> e <code>span</code> do HTML não têm valor semântico</p>
+
+        <!--Elemento em bloco-->
+        <p>Texto de um parágrafo</p>
+        <hr><!--Cria uma linha horizontal entre os paragrafos-->
+        <p>Texto de outro parágrafo</p>
+
+        <!--Elemento Vázio-->
+        <p>Texto do primeiro parágrafo</p>
+        <p>Texto do segundo parágrafo</p>
+        <br><br><!--Cria duas quebra de linhas(o numero de espaços equivale ao numero de brs)-->
+        <p>Texto do terceiro parágrafo</p>
+
+        <img src="./assets/img/bolula.png" alt="Casal 2026">
+        
+        <!--Elemento em bloco-->
+        <article>
+            <h1>Computador Pessoal</h1>
+            <p>Um computador pessoal ou PC (do inglês Personal Computer) é um computador de pequeno porte e baixo</p>
+        </article>
+
+        <!--Elemento em bloco-->
+        <section>
+            <h1>Estação de Trabalho</h1>
+            <article>
+                <h2>Computador Pessoal</h2>
+                <p>Um Computador...</p>
+            </article>
+            <article>
+                <h2>Impressora</h2>
+                <p>Impressora é...</p>
+            </article>
+        </section>
+
+        <!--Elemento em bloco-->
+        <article>
+            <header>
+                <h1>Computador Pessoal</h1>
+            </header>
+        </article>
+
+        <!--Elemento em bloco-->
+        <article>
+            <header>
+                <h1>Computador Pessoal</h1>
+                <p>Publicado em 09/05/2025</p>
+            </header>
+            <p>Um computador pessoal ou PC...</p>
+            <footer>
+                <p>Copyright 2025 - Todos os direitos reservados</p>
+            </footer>
+        </article>
+
+        <!--Elemento em bloco-->
+        <article>
+            <header>
+                <h1>Computador Pessoal</h1>
+                <p>Publicado em 09/05/2025</p>
+            </header>
+            <p>Um computador pessoal ou PC...</p>
+            <footer>
+                <p>Copyright 2025 - Todos os direitos reservados</p>
+                <aside><!--Só pode ser usada dentro do ARTICLE-->
+                    <!--Conteúdo relacionado a máteria Computador Pessoal-->
+                </aside>
+            </footer>
+        </article>
+        <aside><!--Fora de ARTICLE-->
+            <!--Conteudo relacionado à página que contém a máteia Computador Pessoal-->
+        </aside>
+
+        <!--Elemento em bloco-->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/portifolio.html">Portifolio</a></li>
+                    <li><a href="/artigo.html">Artigos</a></li>
+                    <li><a href="/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Elemento em bloco-->
+        <audio controls>
+            <source src='som.mp3' type="'audio/mpeg">
+            <p>Seu Navegador não suport\ o elemento audio da HTML5.<br> Faça <a href='som.zip'></a>Dowload de som.zip</p>
+        </audio>
+
+        <!--Elemento em bloco-->
+        <video controls>
+            <source src='video.mp4' type="'video/mp4">
+            <p>Seu Navegador não suporta o elemento video do HTML5.<br> Faça <a href='video.mp4'></a>Dowload do video.mp4</p>
+        </video>
+
+        <!--Elemento em bloco-->
+        <video controls>
+            <canvas>
+                <p>Conteúdo alternativo para navegadores que não suportam canvas</p>
+            </canvas>
+        </video>
+    
+    <!--elemento em bloco-->
+    </main>
+    <!--elemento em bloco-->
+    <footer></footer>
+    <!--elemento e bloco-->
+</body>
+</html>
